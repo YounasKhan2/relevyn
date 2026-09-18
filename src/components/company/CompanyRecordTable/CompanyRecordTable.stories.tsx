@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{CompanyRecordTable}from"./CompanyRecordTable";const meta={title:"Company/CompanyRecordTable",component:CompanyRecordTable,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof CompanyRecordTable>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

@@ -8,6 +8,7 @@ import { NativeApplyEntryGuestPage } from "@/pages/public/jobs/NativeApplyEntryG
 import { JobsStatesPage } from "@/pages/public/jobs/JobsStatesPage";
 import { ForCandidatesPage } from "@/pages/public/candidates/ForCandidatesPage";
 import { ForCompaniesPage } from "@/pages/public/companies/ForCompaniesPage";
+import { VerifiedCompanyProfilePage } from "@/pages/public/company/VerifiedCompanyProfilePage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -19,4 +20,5 @@ export const router=createBrowserRouter([
  {path:"/jobs/states",element:<JobsStatesPage/>},
  {path:"/candidates",element:<ForCandidatesPage/>},
  {path:"/companies",element:<ForCompaniesPage/>},
+ {path:"/companies/northstar-labs",element:<VerifiedCompanyProfilePage/>},
 ]);

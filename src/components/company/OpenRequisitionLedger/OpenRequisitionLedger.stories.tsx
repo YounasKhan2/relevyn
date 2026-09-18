@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{OpenRequisitionLedger}from"./OpenRequisitionLedger";const meta={title:"Company/OpenRequisitionLedger",component:OpenRequisitionLedger,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof OpenRequisitionLedger>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

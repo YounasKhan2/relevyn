@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{OperatingFootprint}from"./OperatingFootprint";const meta={title:"Company/OperatingFootprint",component:OperatingFootprint,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof OperatingFootprint>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

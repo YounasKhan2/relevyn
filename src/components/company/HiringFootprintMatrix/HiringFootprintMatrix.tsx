@@ -1,0 +1,3 @@
+import styles from "./HiringFootprintMatrix.module.css";
+const rows=[["ENGINEERING",[4,2,0]],["PRODUCT",[2,1,0]],["DATA",[2,0,0]],["DESIGN",[1,0,0]],["OPERATIONS",[0,2,0]]];
+export function HiringFootprintMatrix(){return <section className={styles.root}><header><b>FUNCTION</b><b>REMOTE</b><b>HYBRID</b><b>ON-SITE</b></header>{rows.map(r=><div className={styles.row} key={r[0]}><strong>{r[0]}</strong>{(r[1] as number[]).map((n,i)=><div key={i}>{n===0?<span>0</span>:Array.from({length:n}).map((_,j)=><i key={j}/>)}</div>)}</div>)}<footer><span>Each dot represents one currently open role.</span><b>11 OPEN REQUISITIONS</b></footer></section>}
