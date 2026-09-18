@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{SecurityControlRegister}from"./SecurityControlRegister";const meta={title:"Trust/SecurityControlRegister",component:SecurityControlRegister,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof SecurityControlRegister>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};
