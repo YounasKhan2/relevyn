@@ -2,12 +2,16 @@
   --color-canvas: #ece7e2;
   --color-surface: #f8f4f0;
   --color-surface-strong: #fffdfc;
+  --color-surface-soft: #fcfbfa;
+  --color-surface-active: #f3edeb;
+  --color-header: #ede9e5;
   --color-sidebar: #e8e1db;
 
   --color-text-primary: #251e1f;
   --color-text-secondary: #6d6262;
   --color-text-tertiary: #9a8f8d;
   --color-border: #d8cec7;
+  --color-border-soft: #d6cfc7;
 
   --color-brand: #6d2c37;
   --color-brand-muted: #e8d9dc;
@@ -16,6 +20,7 @@
 
   --color-success: #476c57;
   --color-warning: #9a6e34;
+  --color-warning-muted: #916e40;
   --color-danger: #a5424a;
   --color-info: #536a9a;
 
@@ -52,6 +57,7 @@
   --row-compact: 38px;
 
   --content-max: 1200px;
+  --public-content-max: 1372px;
   --page-padding-desktop: 64px;
   --page-padding-tablet: 32px;
   --page-padding-mobile: 20px;

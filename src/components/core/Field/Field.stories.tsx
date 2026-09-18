@@ -1,0 +1,3 @@
+import type { Meta,StoryObj } from "@storybook/react-vite"; import { Field } from "./Field";
+const meta={title:"Core/Field",component:Field,tags:["autodocs"],args:{label:"Email address",placeholder:"name@company.com",state:"default"},argTypes:{state:{control:"select",options:["default","focus","filled","error","disabled"]}}} satisfies Meta<typeof Field>;
+export default meta; type Story=StoryObj<typeof meta>; export const Playground:Story={}; export const Focus:Story={args:{state:"focus"}}; export const Filled:Story={args:{state:"filled",defaultValue:"name@company.com"}}; export const Error:Story={args:{state:"error",error:"Optional helper text."}}; export const Disabled:Story={args:{state:"disabled"}};
