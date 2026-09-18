@@ -15,6 +15,7 @@ import { TrustPrivacyPage } from "@/pages/public/trust/TrustPrivacyPage";
 import { SecurityControlRegisterPage } from "@/pages/public/security/SecurityControlRegisterPage";
 import { AboutPage } from "@/pages/public/about/AboutPage";
 import { HelpContactPage } from "@/pages/public/help/HelpContactPage";
+import { PrivacyPage } from "@/pages/public/privacy/PrivacyPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -33,4 +34,5 @@ export const router=createBrowserRouter([
  {path:"/security",element:<SecurityControlRegisterPage/>},
  {path:"/about",element:<AboutPage/>},
  {path:"/help",element:<HelpContactPage/>},
+ {path:"/privacy",element:<PrivacyPage/>},
 ]);
