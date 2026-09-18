@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{PrivacyBoundaryFlow}from"./PrivacyBoundaryFlow";const meta={title:"Candidate/PrivacyBoundaryFlow",component:PrivacyBoundaryFlow,tags:["autodocs"],parameters:{backgrounds:{default:"dark"}}}satisfies Meta<typeof PrivacyBoundaryFlow>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

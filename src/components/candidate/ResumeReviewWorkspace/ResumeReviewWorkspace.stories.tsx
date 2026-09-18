@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{ResumeReviewWorkspace}from"./ResumeReviewWorkspace";const meta={title:"Candidate/ResumeReviewWorkspace",component:ResumeReviewWorkspace,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof ResumeReviewWorkspace>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

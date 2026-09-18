@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{CareerRecordSpine}from"./CareerRecordSpine";const meta={title:"Candidate/CareerRecordSpine",component:CareerRecordSpine,tags:["autodocs"]}satisfies Meta<typeof CareerRecordSpine>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

@@ -19,6 +19,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/jobs/senior-product-engineer/apply` — External Apply Entry
 - `/jobs/senior-product-engineer/apply/native` — Native Apply Entry / Guest
 - `/jobs/states` — Jobs States board
+- `/candidates` — For Candidates
 
 ## Architecture
 
@@ -54,3 +55,4 @@ See:
 - `docs/public-external-apply-entry.md`
 - `docs/public-native-apply-entry-guest.md`
 - `docs/public-jobs-states.md`
+- `docs/public-for-candidates.md`

@@ -6,6 +6,7 @@ import { NativeJobDetailPage } from "@/pages/public/jobs/NativeJobDetailPage";
 import { ExternalApplyEntryPage } from "@/pages/public/jobs/ExternalApplyEntryPage";
 import { NativeApplyEntryGuestPage } from "@/pages/public/jobs/NativeApplyEntryGuestPage";
 import { JobsStatesPage } from "@/pages/public/jobs/JobsStatesPage";
+import { ForCandidatesPage } from "@/pages/public/candidates/ForCandidatesPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -15,4 +16,5 @@ export const router=createBrowserRouter([
  {path:"/jobs/senior-product-engineer/apply",element:<ExternalApplyEntryPage/>},
  {path:"/jobs/senior-product-engineer/apply/native",element:<NativeApplyEntryGuestPage/>},
  {path:"/jobs/states",element:<JobsStatesPage/>},
+ {path:"/candidates",element:<ForCandidatesPage/>},
 ]);
