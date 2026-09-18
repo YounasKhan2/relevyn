@@ -26,6 +26,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/companies/northstar-labs/no-open-roles` — No Open Roles company state
 - `/trust` — Trust & Privacy
 - `/security` — Security Control Register
+- `/about` — About
 
 ## Architecture
 
