@@ -27,6 +27,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/trust` — Trust & Privacy
 - `/security` — Security Control Register
 - `/about` — About
+- `/help` — Help + Contact
 
 ## Architecture
 
