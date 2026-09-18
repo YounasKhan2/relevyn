@@ -5,6 +5,7 @@
   --color-surface-soft: #fcfbfa;
   --color-surface-active: #f3edeb;
   --color-header: #ede9e5;
+  --color-marketing: #e7e2de;
   --color-sidebar: #e8e1db;
 
   --color-text-primary: #251e1f;
@@ -32,11 +33,13 @@
 
   --color-marketing-dark: #32171d;
   --color-marketing-dark-raised: #412028;
-  --color-marketing-on-dark: #f6efea;
+  --color-marketing-on-dark: #f6efeb;
   --color-marketing-on-dark-muted: #c9b7b8;
 
   --font-display: "Manrope", sans-serif;
   --font-ui: "Inter", sans-serif;
+  --font-public-display: "Newsreader", serif;
+  --font-public-ui: "Instrument Sans", sans-serif;
 
   --space-1: 4px;
   --space-2: 8px;
@@ -58,15 +61,15 @@
 
   --content-max: 1200px;
   --public-content-max: 1372px;
-  --page-padding-desktop: 64px;
-  --page-padding-tablet: 32px;
-  --page-padding-mobile: 20px;
+  --page-padding-desktop: 34px;
+  --page-padding-tablet: 24px;
+  --page-padding-mobile: 16px;
 
-  --header-height-desktop: 72px;
-  --header-height-mobile: 64px;
+  --header-height-desktop: 56px;
+  --header-height-mobile: 56px;
 
-  --section-gap-desktop: 96px;
-  --section-gap-compact: 64px;
+  --section-gap-desktop: 16px;
+  --section-gap-compact: 12px;
 
   --duration-quick: 180ms;
   --duration-reveal: 480ms;
@@ -74,5 +77,5 @@
   --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
   --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
 
-  --shadow-workspace: 0 12px 32px rgb(50 23 29 / 10%);
+  --shadow-workspace: 0 16px 32px -9px rgb(0 0 0 / 22%);
 }
