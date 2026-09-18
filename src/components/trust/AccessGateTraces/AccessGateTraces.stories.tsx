@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{AccessGateTraces}from"./AccessGateTraces";const meta={title:"Trust/AccessGateTraces",component:AccessGateTraces,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof AccessGateTraces>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

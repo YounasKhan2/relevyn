@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{TrustBoundaryField}from"./TrustBoundaryField";const meta={title:"Trust/TrustBoundaryField",component:TrustBoundaryField,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof TrustBoundaryField>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

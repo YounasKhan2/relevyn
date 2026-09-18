@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{AIAuthorityBoundary}from"./AIAuthorityBoundary";const meta={title:"Trust/AIAuthorityBoundary",component:AIAuthorityBoundary,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof AIAuthorityBoundary>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};
