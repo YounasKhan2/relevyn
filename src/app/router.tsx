@@ -14,6 +14,7 @@ import { CompanyNoOpenRolesPage } from "@/pages/public/company/CompanyNoOpenRole
 import { TrustPrivacyPage } from "@/pages/public/trust/TrustPrivacyPage";
 import { SecurityControlRegisterPage } from "@/pages/public/security/SecurityControlRegisterPage";
 import { AboutPage } from "@/pages/public/about/AboutPage";
+import { HelpContactPage } from "@/pages/public/help/HelpContactPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -31,4 +32,5 @@ export const router=createBrowserRouter([
  {path:"/trust",element:<TrustPrivacyPage/>},
  {path:"/security",element:<SecurityControlRegisterPage/>},
  {path:"/about",element:<AboutPage/>},
+ {path:"/help",element:<HelpContactPage/>},
 ]);
