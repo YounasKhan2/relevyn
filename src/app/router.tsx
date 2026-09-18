@@ -9,6 +9,7 @@ import { JobsStatesPage } from "@/pages/public/jobs/JobsStatesPage";
 import { ForCandidatesPage } from "@/pages/public/candidates/ForCandidatesPage";
 import { ForCompaniesPage } from "@/pages/public/companies/ForCompaniesPage";
 import { VerifiedCompanyProfilePage } from "@/pages/public/company/VerifiedCompanyProfilePage";
+import { CompanyStateComparisonPage } from "@/pages/public/company/CompanyStateComparisonPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -21,4 +22,5 @@ export const router=createBrowserRouter([
  {path:"/candidates",element:<ForCandidatesPage/>},
  {path:"/companies",element:<ForCompaniesPage/>},
  {path:"/companies/northstar-labs",element:<VerifiedCompanyProfilePage/>},
+ {path:"/companies/states",element:<CompanyStateComparisonPage/>},
 ]);
