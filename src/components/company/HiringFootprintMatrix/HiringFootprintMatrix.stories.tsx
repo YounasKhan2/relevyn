@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{HiringFootprintMatrix}from"./HiringFootprintMatrix";const meta={title:"Company/HiringFootprintMatrix",component:HiringFootprintMatrix,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof HiringFootprintMatrix>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

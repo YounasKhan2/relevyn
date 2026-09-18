@@ -21,12 +21,13 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/jobs/states` — Jobs States board
 - `/candidates` — For Candidates
 - `/companies` — For Companies
+- `/companies/northstar-labs` — Verified Company Profile
 
 ## Architecture
 
 Shared reusable product UI lives under `src/components`.
 
-Public pages live under `src/pages/public`. Page-specific composition stays local; embedded Candidate, Jobs, Organization and other product UI is promoted into the relevant reusable family.
+Public pages live under `src/pages/public`. Page-specific composition stays local; embedded Candidate, Jobs, Organization and Company profile UI is promoted into the relevant reusable family.
 
 ## Workflow
 
@@ -58,3 +59,4 @@ See:
 - `docs/public-jobs-states.md`
 - `docs/public-for-candidates.md`
 - `docs/public-for-companies.md`
+- `docs/public-company-profile-verified.md`
