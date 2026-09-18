@@ -10,48 +10,33 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - CSS Modules + global design tokens
 - Storybook
 
-## Frontend architecture
-
-Shared reusable product UI lives under `src/components`.
-
-Public pages live under `src/pages/public`. Page-specific section choreography stays local to the page, while embedded Candidate, Jobs, Organization or other product UI is promoted into the matching reusable component family.
-
-```text
-src/
-├── components/
-│   ├── core/
-│   ├── public/
-│   ├── jobs/
-│   ├── candidate/
-│   └── organization/
-├── pages/
-│   └── public/
-│       ├── landing/
-│       └── jobs/
-└── styles/
-```
-
 ## Implemented Public routes
 
 - `/` — Landing
 - `/jobs` — Jobs Discovery
+- `/jobs/senior-product-engineer` — External Job Detail
 
-## Implementation workflow
+## Architecture
 
-1. Work in a dedicated feature branch.
-2. Implement the complete page/feature milestone.
-3. Update relevant documentation in the same branch.
-4. Extract genuine reusable UI instead of duplicating it inside page sections.
-5. Keep responsive behavior inside components where appropriate.
-6. Validate locally with the app and Storybook.
-7. Commit the completed page/feature coherently.
-8. Merge only after review.
+Shared reusable product UI lives under `src/components`.
 
-GitHub CI/CD is intentionally not configured. Build, Storybook and deployment verification are handled locally.
+Public pages live under `src/pages/public`. Page-specific composition stays local; embedded Candidate, Jobs, Organization and other product UI is promoted into the relevant reusable family.
+
+## Workflow
+
+1. Dedicated page/feature branch
+2. Exact approved Figma implementation
+3. Reuse or promote genuine reusable components
+4. Responsive behavior inside components
+5. Storybook/docs updated in the same branch
+6. One coherent page commit
+7. Review before merge
+
+GitHub CI/CD is intentionally not configured. Local build, Storybook and deployment verification remain the acceptance gate.
 
 ## Design source of truth
 
-The approved RELEVYN Figma design is the visual source of truth. Code can be abstracted; approved screen design should not be reinterpreted for implementation convenience.
+The approved RELEVYN Figma design is the visual source of truth.
 
 See:
 
@@ -60,3 +45,4 @@ See:
 - `docs/implementation-workflow.md`
 - `docs/public-landing.md`
 - `docs/public-jobs-discovery.md`
+- `docs/public-job-detail-external.md`
