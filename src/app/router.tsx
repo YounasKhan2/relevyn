@@ -19,6 +19,7 @@ import { PrivacyPage } from "@/pages/public/privacy/PrivacyPage";
 import { TermsPage } from "@/pages/public/terms/TermsPage";
 import { CookiesPage } from "@/pages/public/cookies/CookiesPage";
 import { NotFoundPage } from "@/pages/public/errors/NotFoundPage";
+import { SystemErrorPage } from "@/pages/public/errors/SystemErrorPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -41,5 +42,6 @@ export const router=createBrowserRouter([
  {path:"/terms",element:<TermsPage/>},
  {path:"/cookies",element:<CookiesPage/>},
  {path:"/404",element:<NotFoundPage/>},
+ {path:"/500",element:<SystemErrorPage/>},
  {path:"*",element:<NotFoundPage/>},
 ]);
