@@ -2,7 +2,6 @@ export * from "./core/Button/Button";
 export * from "./core/Card/Card";
 export * from "./core/Field/Field";
 export * from "./core/SignalChip/SignalChip";
-
 export * from "./public/PublicHeader/PublicHeader";
 export * from "./public/FAQRow/FAQRow";
 export * from "./public/FAQEditorialRail/FAQEditorialRail";
@@ -10,7 +9,6 @@ export * from "./public/StoryStep/StoryStep";
 export * from "./public/HeroActions/HeroActions";
 export * from "./public/FinalCTA/FinalCTA";
 export * from "./public/GlobalFooter/GlobalFooter";
-
 export * from "./jobs/SourceBadge/SourceBadge";
 export * from "./jobs/SearchInput/SearchInput";
 export * from "./jobs/FilterTrigger/FilterTrigger";
@@ -21,9 +19,16 @@ export * from "./jobs/RequirementGroup/RequirementGroup";
 export * from "./jobs/CandidateContext/CandidateContext";
 export * from "./jobs/CompanySummary/CompanySummary";
 export * from "./jobs/ExternalApplyNotice/ExternalApplyNotice";
-
 export * from "./candidate/WorkspaceState/WorkspaceState";
 export * from "./candidate/SidebarNavItem/SidebarNavItem";
 export * from "./candidate/DiscoveryFilter/DiscoveryFilter";
 export * from "./candidate/ApplicationStageTabs/ApplicationStageTabs";
 export * from "./candidate/DiscoveryLedgerRow/DiscoveryLedgerRow";
+export * from "./candidate/CandidateSidebar/CandidateSidebar";
+export * from "./candidate/CandidateHeader/CandidateHeader";
+export * from "./candidate/CandidateWorkspaceShell/CandidateWorkspaceShell";
+export * from "./candidate/CandidateDiscoveryWorkspace/CandidateDiscoveryWorkspace";
+export * from "./candidate/CandidateMatchExplanation/CandidateMatchExplanation";
+export * from "./candidate/CandidatePassportWorkspace/CandidatePassportWorkspace";
+export * from "./candidate/PrivacyControlRow/PrivacyControlRow";
+export * from "./organization/HiringWorkspacePreview/HiringWorkspacePreview";

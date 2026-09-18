@@ -4,6 +4,10 @@ import "@fontsource/inter/600.css";
 import "@fontsource/manrope/600.css";
 import "@fontsource/manrope/700.css";
 import "@fontsource/manrope/800.css";
+import "@fontsource/instrument-sans/400.css";
+import "@fontsource/instrument-sans/500.css";
+import "@fontsource/instrument-sans/600.css";
+import "@fontsource/newsreader/500.css";
 
 import React from "react";
 import ReactDOM from "react-dom/client";
