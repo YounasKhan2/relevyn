@@ -1,0 +1,45 @@
+.frame {
+  --landing-section-max: 1440px;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-inline: clamp(18px, 3vw, 34px);
+}
+
+.inner {
+  width: 100%;
+  max-width: var(--landing-section-max);
+}
+
+.wide {
+  --landing-section-max: 1600px;
+}
+
+.full {
+  --landing-section-max: none;
+}
+
+.bleed {
+  padding-inline: 0;
+}
+
+@media (max-width: 900px) {
+  .frame {
+    padding-inline: 24px;
+  }
+
+  .bleed {
+    padding-inline: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .frame {
+    padding-inline: 12px;
+  }
+
+  .bleed {
+    padding-inline: 0;
+  }
+}

@@ -1,1 +1,85 @@
-.section{display:flex;min-height:770px;align-items:center;justify-content:center;overflow:hidden}.stage{position:relative;width:min(100%,1180px);height:698px}.layerOne,.layerTwo{position:absolute;width:76.44%;height:80.77%;overflow:hidden;border-radius:12px;background:white;box-shadow:var(--shadow-workspace);transform-origin:center}.layerOne{left:-1%;top:6.3%;transform:rotate(1.8deg)}.layerTwo{right:-1.5%;bottom:5%;transform:rotate(-2.1deg)}@media(max-width:900px){.section{min-height:580px}.stage{height:540px}.layerOne,.layerTwo{width:82%;height:76%}}@media(max-width:640px){.section{min-height:450px}.stage{height:420px}.layerOne,.layerTwo{width:92%;height:69%}.layerOne{left:-7%;top:8%}.layerTwo{right:-7%;bottom:7%}}
+.section {
+  display: flex;
+  min-height: 640px;
+  margin-top: -68px;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+.stage {
+  position: relative;
+  width: min(116vw, 1560px);
+  height: 748px;
+}
+.layerOne,
+.layerTwo {
+  position: absolute;
+  width: 86%;
+  height: 88%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: white;
+  box-shadow: var(--shadow-workspace);
+  transform-origin: center;
+}
+.layerOne {
+  left: -6%;
+  top: 6%;
+  transform: rotate(1.8deg);
+}
+.layerTwo {
+  right: -8%;
+  bottom: 0;
+  transform: rotate(-2.1deg);
+}
+.imageLayer {
+  overflow: visible;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+}
+.imageLayer img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 900px) {
+  .section {
+    min-height: 520px;
+    margin-top: -46px;
+  }
+  .stage {
+    width: min(120vw, 1040px);
+    height: 560px;
+  }
+  .layerOne,
+  .layerTwo {
+    width: 90%;
+    height: 82%;
+  }
+}
+@media (max-width: 640px) {
+  .section {
+    min-height: 380px;
+    margin-top: -22px;
+  }
+  .stage {
+    width: 126vw;
+    height: 405px;
+  }
+  .layerOne,
+  .layerTwo {
+    width: 98%;
+    height: 74%;
+  }
+  .layerOne {
+    left: -14%;
+    top: 7%;
+  }
+  .layerTwo {
+    right: -15%;
+    bottom: 8%;
+  }
+}

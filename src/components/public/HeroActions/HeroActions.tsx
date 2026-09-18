@@ -1,1 +1,28 @@
-import{Button}from"@/components/core/Button/Button";import{classNames}from"@/lib/classNames";import styles from"./HeroActions.module.css";export type HeroActionsProps={primaryLabel?:string;primaryHref?:string;secondaryLabel?:string;secondaryHref?:string;className?:string};export function HeroActions({primaryLabel="Create your passport",primaryHref="/signup",secondaryLabel="For hiring teams",secondaryHref="/companies",className}:HeroActionsProps){return <div className={classNames(styles.actions,className)}><Button href={primaryHref} size="sm">{primaryLabel}</Button><Button href={secondaryHref} variant="secondary" size="sm">{secondaryLabel}</Button></div>}
+import { Button } from "@/components/core/Button/Button";
+import { classNames } from "@/lib/classNames";
+import styles from "./HeroActions.module.css";
+export type HeroActionsProps = {
+  primaryLabel?: string;
+  primaryHref?: string;
+  secondaryLabel?: string;
+  secondaryHref?: string;
+  className?: string;
+};
+export function HeroActions({
+  primaryLabel = "Create your passport",
+  primaryHref = "/signup",
+  secondaryLabel = "For hiring teams",
+  secondaryHref = "/companies",
+  className,
+}: HeroActionsProps) {
+  return (
+    <div className={classNames(styles.actions, className)}>
+      <Button href={primaryHref} size="sm">
+        {primaryLabel}
+      </Button>
+      <Button href={secondaryHref} variant="secondary" size="sm">
+        {secondaryLabel}
+      </Button>
+    </div>
+  );
+}

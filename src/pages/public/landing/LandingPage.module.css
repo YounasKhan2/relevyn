@@ -1,1 +1,23 @@
-.page{display:flex;width:min(100%,1440px);min-height:100vh;flex-direction:column;gap:16px;margin-inline:auto;background:var(--color-canvas);padding:22px 34px 24px}.page>header{flex:0 0 56px}@media(max-width:900px){.page{padding:18px 24px;gap:14px}}@media(max-width:640px){.page{padding:12px;gap:12px}}
+.page {
+  width: min(100%, 1440px);
+  margin-inline: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+  background: var(--color-canvas);
+  padding: 22px 34px 0;
+}
+@media (max-width: 900px) {
+  .page {
+    gap: 14px;
+    padding: 18px 24px 0;
+  }
+}
+@media (max-width: 640px) {
+  .page {
+    gap: 12px;
+    padding: 12px;
+  }
+}

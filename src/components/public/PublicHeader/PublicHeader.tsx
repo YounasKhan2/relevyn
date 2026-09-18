@@ -17,11 +17,11 @@ export type PublicHeaderProps = {
 };
 
 const DEFAULT_NAV: PublicNavItem[] = [
-  { label: "Product⌄", href: "/#product" },
+  { label: "Product", href: "/#product" },
   { label: "For Candidates", href: "/candidates" },
   { label: "For Companies", href: "/companies" },
   { label: "Jobs", href: "/jobs" },
-  { label: "Resources⌄", href: "/#resources" },
+  { label: "Resources", href: "/#resources" },
 ];
 
 export function PublicHeader({
@@ -46,7 +46,7 @@ export function PublicHeader({
       </div>
       <button type="button" className={styles.menuTrigger} onClick={() => setMenuOpen((value) => !value)} aria-expanded={menuOpen} aria-controls="public-mobile-nav">Menu</button>
       <nav id="public-mobile-nav" className={classNames(styles.mobileMenu, menuOpen && styles.mobileMenuOpen)} aria-label="Mobile navigation">
-        {navItems.map((item) => <a key={item.label} href={item.href} onClick={() => setMenuOpen(false)}>{item.label.replace("⌄", "")}</a>)}
+        {navItems.map((item) => <a key={item.label} href={item.href} onClick={() => setMenuOpen(false)}>{item.label}</a>)}
         <a href={loginHref}>Log in</a>
         <Button className={styles.joinButton} href={primaryHref} fullWidth>{primaryLabel}</Button>
       </nav>
