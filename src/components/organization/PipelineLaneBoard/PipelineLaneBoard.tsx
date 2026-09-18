@@ -1,0 +1,3 @@
+import styles from "./PipelineLaneBoard.module.css";
+const lanes=[["01","REVIEW","28","Oldest 2d","Evidence + first review"],["02","SCREEN","11","Oldest 1d","Recruiter screens"],["03","INTERVIEW","6","Next today","Panels + manager"],["04","DECISION","3","Oldest 8h","Final context"]];
+export function PipelineLaneBoard(){return <section className={styles.root}>{lanes.map((l,i)=><article key={l[0]} style={{width:`${100-i*18}%`}}><small>{l[0]}</small><b>{l[1]}</b><strong>{l[2]}</strong><span>{l[3]}</span><p>{l[4]}</p><a href="#">Open stage →</a></article>)}<footer><span>Pipeline width contracts as candidates move toward a decision.</span><b>STAGE COUNTS / LIVE</b></footer></section>}

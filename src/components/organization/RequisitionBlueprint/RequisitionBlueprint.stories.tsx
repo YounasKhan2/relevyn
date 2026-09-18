@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{RequisitionBlueprint}from"./RequisitionBlueprint";const meta={title:"Organization/RequisitionBlueprint",component:RequisitionBlueprint,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof RequisitionBlueprint>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};
