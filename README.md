@@ -32,6 +32,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/terms` — Terms
 - `/cookies` — Cookies
 - `/404` — Missing Route review state
+- `/500` — System Error review state
 - `*` — Missing Route catch-all
 
 ## Architecture
