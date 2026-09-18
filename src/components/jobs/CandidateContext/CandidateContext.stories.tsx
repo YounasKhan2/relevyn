@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{CandidateContext}from"./CandidateContext";const meta={title:"Jobs/CandidateContext",component:CandidateContext,tags:["autodocs"]}satisfies Meta<typeof CandidateContext>;export default meta;type Story=StoryObj<typeof meta>;export const Guest:Story={};export const Passport:Story={args:{state:"passport"}};
