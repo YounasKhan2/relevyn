@@ -30,6 +30,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/help` — Help + Contact
 - `/privacy` — Privacy
 - `/terms` — Terms
+- `/cookies` — Cookies
 
 ## Architecture
 
