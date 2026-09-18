@@ -23,6 +23,7 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/companies` — For Companies
 - `/companies/northstar-labs` — Verified Company Profile
 - `/companies/states` — Verified vs External Company Profile states
+- `/companies/northstar-labs/no-open-roles` — No Open Roles company state
 
 ## Architecture
 
@@ -62,3 +63,4 @@ See:
 - `docs/public-for-companies.md`
 - `docs/public-company-profile-verified.md`
 - `docs/public-company-state-comparison.md`
+- `docs/public-company-no-open-roles.md`

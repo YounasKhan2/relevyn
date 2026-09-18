@@ -1,0 +1,1 @@
+.page{width:min(100%,1440px);min-height:520px;margin-inline:auto;background:#f4f0ec;padding-top:42px;font-family:var(--font-public-ui)}.eyebrow{margin:0 50px;color:var(--color-brand);font-size:12px;font-weight:600;line-height:16px}.page>section{margin-top:-16px}@media(max-width:640px){.eyebrow{margin-inline:18px}.page{padding-top:32px}}
