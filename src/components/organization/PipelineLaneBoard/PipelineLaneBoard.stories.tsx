@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{PipelineLaneBoard}from"./PipelineLaneBoard";const meta={title:"Organization/PipelineLaneBoard",component:PipelineLaneBoard,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof PipelineLaneBoard>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

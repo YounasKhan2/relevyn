@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{InterviewPlanner}from"./InterviewPlanner";const meta={title:"Organization/InterviewPlanner",component:InterviewPlanner,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof InterviewPlanner>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

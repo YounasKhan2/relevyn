@@ -1,0 +1,5 @@
+import styles from "./InterviewPlanner.module.css";
+const days=["MON 21","TUE 22","WED 23","THU 24","FRI 25"];
+const rows=["RECRUITER SCREEN","TECHNICAL PANEL","HIRING MANAGER","FINAL CONVERSATION"];
+const events=[["0","0","Maya Chen","10:30","SET"],["2","0","Noah Patel","11:00","SET"],["1","1","Ava Williams","14:00","HOLD"],["3","1","Lina Costa","15:30","SET"],["2","2","Omar Ali","13:00","SET"],["4","2","Eva Müller","16:00","HOLD"],["3","3","Maya Chen","11:30","SET"]];
+export function InterviewPlanner(){return <section className={styles.root}><header><b>WEEKLY INTERVIEW COORDINATION</b><span>7 interviews · 2 awaiting confirmation</span></header><div className={styles.grid}><div/>{days.map(d=><b key={d}>{d}</b>)}{rows.map((row,ri)=><><strong key={row}>{row}</strong>{days.map((_,di)=>{const e=events.find(x=>+x[0]===di&&+x[1]===ri);return <div className={styles.cell} key={di}>{e&&<article><b>{e[2]}</b><span>{e[3]}</span><em>{e[4]}</em></article>}</div>})}</>)}</div><footer>Interview coordination stays attached to the same hiring context and applicant history.</footer></section>}

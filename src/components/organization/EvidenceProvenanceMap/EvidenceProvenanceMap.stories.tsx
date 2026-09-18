@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{EvidenceProvenanceMap}from"./EvidenceProvenanceMap";const meta={title:"Organization/EvidenceProvenanceMap",component:EvidenceProvenanceMap,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof EvidenceProvenanceMap>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};
