@@ -1,0 +1,1 @@
+.item{display:flex;width:min(100%,180px);min-height:28px;align-items:center;border-radius:7px;padding:5px 12px;color:var(--color-shell-text-muted);font:400 10px/18px var(--font-ui);text-decoration:none}.active{background:var(--color-shell-active);color:var(--color-shell-text);font-weight:500}

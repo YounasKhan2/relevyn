@@ -1,0 +1,1 @@
+.filter{display:flex;width:112px;min-height:28px;align-items:center;justify-content:space-between;border:0;background:var(--color-surface-strong);padding:6px 10px 6px 12px;color:var(--color-text-secondary);font:500 8px/16px var(--font-ui);cursor:pointer}.active{background:var(--color-surface-active);color:var(--color-brand);font-weight:600}
