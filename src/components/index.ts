@@ -2,3 +2,4 @@ export * from "./core/Button/Button";export * from "./core/Card/Card";export * f
 export * from "./company/CompanyStateComparisonSheet/CompanyStateComparisonSheet";
 export * from "./company/CompanyNoOpenRolesState/CompanyNoOpenRolesState";
 export * from "./trust/TrustBoundaryField/TrustBoundaryField";export * from "./trust/DataCustodyLanes/DataCustodyLanes";export * from "./trust/AccessGateTraces/AccessGateTraces";export * from "./trust/SecureResumeChain/SecureResumeChain";export * from "./trust/TenantIsolationIslands/TenantIsolationIslands";export * from "./trust/AIAuthorityBoundary/AIAuthorityBoundary";export * from "./trust/ReliabilityLedger/ReliabilityLedger";
+export * from "./trust/SecurityControlRegister/SecurityControlRegister";

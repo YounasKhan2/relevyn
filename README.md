@@ -25,12 +25,13 @@ RELEVYN is a professional identity and hiring platform. This repository contains
 - `/companies/states` — Verified vs External Company Profile states
 - `/companies/northstar-labs/no-open-roles` — No Open Roles company state
 - `/trust` — Trust & Privacy
+- `/security` — Security Control Register
 
 ## Architecture
 
 Shared reusable product UI lives under `src/components`.
 
-Public pages live under `src/pages/public`. Reusable Candidate, Jobs, Organization, Company and Trust surfaces are promoted into their semantic component families.
+Public pages live under `src/pages/public`. Reusable Candidate, Jobs, Organization, Company and Trust/Security surfaces are promoted into their semantic component families.
 
 ## Workflow
 
@@ -48,4 +49,4 @@ GitHub CI/CD is intentionally not configured. Local build, Storybook and deploym
 
 The approved RELEVYN Figma design is the visual source of truth.
 
-See `docs/` for the page-level implementation notes.
+See `docs/` for page-level implementation notes.

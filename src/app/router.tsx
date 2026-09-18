@@ -12,6 +12,7 @@ import { VerifiedCompanyProfilePage } from "@/pages/public/company/VerifiedCompa
 import { CompanyStateComparisonPage } from "@/pages/public/company/CompanyStateComparisonPage";
 import { CompanyNoOpenRolesPage } from "@/pages/public/company/CompanyNoOpenRolesPage";
 import { TrustPrivacyPage } from "@/pages/public/trust/TrustPrivacyPage";
+import { SecurityControlRegisterPage } from "@/pages/public/security/SecurityControlRegisterPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -27,4 +28,5 @@ export const router=createBrowserRouter([
  {path:"/companies/states",element:<CompanyStateComparisonPage/>},
  {path:"/companies/northstar-labs/no-open-roles",element:<CompanyNoOpenRolesPage/>},
  {path:"/trust",element:<TrustPrivacyPage/>},
+ {path:"/security",element:<SecurityControlRegisterPage/>},
 ]);
