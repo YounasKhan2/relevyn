@@ -14,6 +14,7 @@ export * from "./jobs/SearchInput/SearchInput";
 export * from "./jobs/FilterTrigger/FilterTrigger";
 export * from "./jobs/JobRow/JobRow";
 export * from "./jobs/ResultRow/ResultRow";
+export * from "./jobs/SelectedOpportunityPanel/SelectedOpportunityPanel";
 export * from "./jobs/JobDetailHeader/JobDetailHeader";
 export * from "./jobs/RequirementGroup/RequirementGroup";
 export * from "./jobs/CandidateContext/CandidateContext";
