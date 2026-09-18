@@ -1,0 +1,72 @@
+:root {
+  --color-canvas: #ece7e2;
+  --color-surface: #f8f4f0;
+  --color-surface-strong: #fffdfc;
+  --color-sidebar: #e8e1db;
+
+  --color-text-primary: #251e1f;
+  --color-text-secondary: #6d6262;
+  --color-text-tertiary: #9a8f8d;
+  --color-border: #d8cec7;
+
+  --color-brand: #6d2c37;
+  --color-brand-muted: #e8d9dc;
+  --color-action-primary: #7b2f3c;
+  --color-action-primary-hover: #622430;
+
+  --color-success: #476c57;
+  --color-warning: #9a6e34;
+  --color-danger: #a5424a;
+  --color-info: #536a9a;
+
+  --color-shell: #21181a;
+  --color-shell-surface: #2d2124;
+  --color-shell-active: #5a2730;
+  --color-shell-text: #f7eeec;
+  --color-shell-text-muted: #bba7ab;
+
+  --color-marketing-dark: #32171d;
+  --color-marketing-dark-raised: #412028;
+  --color-marketing-on-dark: #f6efea;
+  --color-marketing-on-dark-muted: #c9b7b8;
+
+  --font-display: "Manrope", sans-serif;
+  --font-ui: "Inter", sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  --control-sm: 30px;
+  --control-md: 34px;
+  --row-compact: 38px;
+
+  --content-max: 1200px;
+  --page-padding-desktop: 64px;
+  --page-padding-tablet: 32px;
+  --page-padding-mobile: 20px;
+
+  --header-height-desktop: 72px;
+  --header-height-mobile: 64px;
+
+  --section-gap-desktop: 96px;
+  --section-gap-compact: 64px;
+
+  --duration-quick: 180ms;
+  --duration-reveal: 480ms;
+  --duration-story: 800ms;
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --shadow-workspace: 0 12px 32px rgb(50 23 29 / 10%);
+}
