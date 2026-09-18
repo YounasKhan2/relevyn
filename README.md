@@ -26,13 +26,15 @@ src/
 │   └── organization/
 ├── pages/
 │   └── public/
-│       └── landing/
-│           ├── LandingPage.tsx
-│           └── components/
+│       ├── landing/
+│       └── jobs/
 └── styles/
 ```
 
-A component starts local when it belongs only to one page. It is promoted when its visual/product contract is reusable.
+## Implemented Public routes
+
+- `/` — Landing
+- `/jobs` — Jobs Discovery
 
 ## Implementation workflow
 
@@ -57,3 +59,4 @@ See:
 - `docs/component-system.md`
 - `docs/implementation-workflow.md`
 - `docs/public-landing.md`
+- `docs/public-jobs-discovery.md`
