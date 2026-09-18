@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{ReliabilityLedger}from"./ReliabilityLedger";const meta={title:"Trust/ReliabilityLedger",component:ReliabilityLedger,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof ReliabilityLedger>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};

@@ -1,0 +1,1 @@
+import type{Meta,StoryObj}from"@storybook/react-vite";import{SecureResumeChain}from"./SecureResumeChain";const meta={title:"Trust/SecureResumeChain",component:SecureResumeChain,tags:["autodocs"],parameters:{layout:"fullscreen"}}satisfies Meta<typeof SecureResumeChain>;export default meta;type Story=StoryObj<typeof meta>;export const Default:Story={};
