@@ -16,6 +16,7 @@ import { SecurityControlRegisterPage } from "@/pages/public/security/SecurityCon
 import { AboutPage } from "@/pages/public/about/AboutPage";
 import { HelpContactPage } from "@/pages/public/help/HelpContactPage";
 import { PrivacyPage } from "@/pages/public/privacy/PrivacyPage";
+import { TermsPage } from "@/pages/public/terms/TermsPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -35,4 +36,5 @@ export const router=createBrowserRouter([
  {path:"/about",element:<AboutPage/>},
  {path:"/help",element:<HelpContactPage/>},
  {path:"/privacy",element:<PrivacyPage/>},
+ {path:"/terms",element:<TermsPage/>},
 ]);
