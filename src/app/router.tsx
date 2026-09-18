@@ -18,6 +18,7 @@ import { HelpContactPage } from "@/pages/public/help/HelpContactPage";
 import { PrivacyPage } from "@/pages/public/privacy/PrivacyPage";
 import { TermsPage } from "@/pages/public/terms/TermsPage";
 import { CookiesPage } from "@/pages/public/cookies/CookiesPage";
+import { NotFoundPage } from "@/pages/public/errors/NotFoundPage";
 
 export const router=createBrowserRouter([
  {path:"/",element:<LandingPage/>},
@@ -39,4 +40,6 @@ export const router=createBrowserRouter([
  {path:"/privacy",element:<PrivacyPage/>},
  {path:"/terms",element:<TermsPage/>},
  {path:"/cookies",element:<CookiesPage/>},
+ {path:"/404",element:<NotFoundPage/>},
+ {path:"*",element:<NotFoundPage/>},
 ]);
